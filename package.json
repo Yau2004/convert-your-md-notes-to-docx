@@ -1,0 +1,17 @@
+{
+  "name": "md2docx-static",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node web/build.js",
+    "test": "node --test web/*.test.js"
+  },
+  "dependencies": {
+    "buffer": "6.0.3",
+    "docx": "9.5.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.5",
+    "jszip": "3.10.1"
+  }
+}
